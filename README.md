@@ -1,7 +1,3 @@
-# Prestadores-de-servicio-EGAL-
-
-
-
 # PRESTADORES DE SERVICIOS "EGAL"
 
 
