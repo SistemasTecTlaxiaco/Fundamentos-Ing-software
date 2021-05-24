@@ -76,9 +76,9 @@
     
                             </div>
                         </div>
-                        <a href=""></a>
+                        
                         <input type="submit" onclick="validar()"  class="btn" value="iniciar sesion ">
-    
+                        <a href="registro.php"> Crear cuenta</a> 
                     </form>
                 </div>
             </div>
