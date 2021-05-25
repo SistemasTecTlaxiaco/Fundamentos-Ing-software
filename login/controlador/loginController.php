@@ -1,44 +1,26 @@
-<?php
-include_once '../modelo/Usuario.php';
-session_start();
-$user =$_POST['user'];
-$pass=$_POST['pass'];
-$usuario=new Usuario();
+<?php 
 
-if(!empty($_SESSION['tipo_usuario']))
-{
+require_once '../modelo/Usuario.php';
+    if(isset($_POST['iniciar'])){
+        $username = $_POST['user'];
+        $password = $_POST['pass'];
 
-    switch($_SESSION['tipo_usuario']){
-        case 1:
-            header('location:../vista/cliente.php');
-            break;
-        case 2:
-            header('location:../vista/servidor.php');
-            break;
-    }
+        if(empty($username) || empty($password)){
+           
+            echo '<div class="alert alert-danger">Nombre de usuario o contraseña vacio</div>';
+          
+        }else{
+            $user = new User;
 
-}
-else{
-    $usuario->loguearse($user,$pass);
-    if(!empty($usuario->objetos)){
-        foreach ($usuario->objetos as $objeto){
-            $_SESSION['usuario']=$objeto->id_usurio;
-            $_SESSION['tipo_usuario']=$objeto->tipo_usuario;
-            $_SESSION['nombreCompleto']=$objeto->nombreCompleto;
+            if($user->getUser($username,$password)){
+                session_start();
+                $_SESSION['usuario'] = $username;
+                header('Location: ../vista/cliente.php');
+            }else{
+             echo '<div class="alert alert-danger">Usuario no existe</div>';
+            }
         }
-        switch($_SESSION['tipo_usuario']){
-            case 1:
-                header('location:../vista/cliente.php');
-                break;
-            case 2:
-                header('location:../vista/servidor.php');
-                break;
-        }
-    
-    }
-    else{
-        header('location: ../vista/login.php');
-    }
-}
+        
 
-?>
+    }
+?> 
