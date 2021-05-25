@@ -23,8 +23,6 @@ include '../controlador/loginController.php';
             <img class="wave1" src="../img/wave1.png" alt="">
             <div class="contenedor">
                 <div class="img" >
-                    
-                
                 </div>
                 <div class="contenido-login">
                     <form action="" method="post">
