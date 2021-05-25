@@ -1,6 +1,14 @@
 <?php
-   $conectar=mysqli_connect("localhost","root","","proyectoegal");
-   if ($conectar){
-     echo "todo correcto";
-   }
+
+ $server = 'localhost';
+ $username = 'root';
+ $password = '';
+ $database = 'proyectoegal';
+
+try {
+  $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
+} catch (PDOException $e) {
+  die('Connection Failed: ' . $e->getMessage());
+}
+
 ?>
