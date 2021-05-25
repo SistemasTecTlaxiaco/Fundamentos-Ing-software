@@ -30,7 +30,7 @@ if($_SESSION['tipo_usuario']==2){
             <li><a href=' ' target="iframea">PRINCIPAL</a></li>
             
         </ul>
-        
+    
        </nav>
 
        <form id="searchform">
