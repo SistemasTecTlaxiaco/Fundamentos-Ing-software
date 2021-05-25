@@ -1,4 +1,6 @@
-<?php 
+  
+
+  <?php 
 
 require_once '../modelo/Usuario.php';
     if(isset($_POST['iniciar'])){
