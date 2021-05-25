@@ -1,13 +1,4 @@
-<<<<<<< HEAD
 
-
-=======
-<?php
-	session_start();
-	if($_SESSION['tipo_usuario']==1
-	){
-?>
->>>>>>> 588245245bb6b68af43419036d7f2dbad28c5091
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,29 +32,10 @@
 		<<img src="../img/loginprestadores.jpg" alt="" >
 	</div>
 <<<<<<< HEAD
-
-	
-	
-	
-
-
- 
-
 </body>
-
-
 </html>
-
-
-
-
 =======
 </html>
 </body>
 <?php
-}
-else{
-    header('Location: ../vista/login.php');
-}
-?>
->>>>>>> 588245245bb6b68af43419036d7f2dbad28c5091
+
