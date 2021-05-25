@@ -1,6 +1,6 @@
   
-<?php 
 
+<?php 
 class Database{
     private $servername;
     private $user;
@@ -18,6 +18,4 @@ class Database{
         $conn = new mysqli($this->servername,$this->user,$this->password,$this->dbname);
         return $conn;
     }
-
-
 }
