@@ -10,8 +10,8 @@
   <body>
   <form method="post">
   <h1>Bienvenido a prestadores de servicio EGAL </h1>
-  <a href="vista/login.php"> Ingresar</a> o
-  <a href="vista/registro.php">Registrate</a>
+	<a href="vista/login.php"> Ingresar</a> o
+	<a href="vista/registro.php">Registrate</a>
   </form>
   </body>
 </html>
