@@ -1,8 +1,4 @@
-<?php
-	session_start();
-	if($_SESSION['tipo_usuario']==1
-	){
-?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -82,6 +78,10 @@
 			<p>Autor: PRESTADORES DE SERVICIO EGAL:)</p>
 		</footer>
 	</div>
+<<<<<<< HEAD
+</body>
+</html>
+=======
 </html>
 </body>
 <style type="text/css">
@@ -89,8 +89,4 @@
 	iframe {display:block; width:100% border:none;}
 </style>
 <?php
-}
-else{
-    header('Location: ../vista/login.php');
-}
-?>
+

@@ -1,59 +1,33 @@
+
+<?php 
+session_start();
+
+    if(isset($_SESSION['usuario'])){
+        header('Location: cliente.php');
+    }
+
+include '../modelo/Conexion.php';
+include '../modelo/usuario.php';
+include '../controlador/loginController.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
         <title>login</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <script type="text/javascript">
-         function validar(){
-                    if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/.test(document.getElementById("usuario").value)) )
-                            {
-                                    alert('El correo deve ser en formato cuenta@dominio.abc');
-                                    document.getElementById("usuario").style.backgroundColor='red';
-                                    document.getElementById("usuario").focus();
-                                    return false;
-                            }
-                            else{
-                                    if(!(/^[0-9]/^([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\']+)+[\s]*([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\'])*[\s]?([A-Za-zÁÉÍÓÚñáéíóúÑ]{0}?[A-Za-zÁÉÍÓÚñáéíóúÑ\'])*?$/
-                                    .test(document.getElementById("pass").value)) )
-                                    {
-                                            alert('Ingrese su contraseña');
-                                            document.getElementById("pass").style.backgroundColor='red';
-                                            document.getElementById("pass").focus();
-                                            return false;
-                                    }
-                    
-                                   
-                                    document.getElementById("usuario").style.backgroundColor='';
-                                    document.getElementById("pass").style.backgroundColor='';
-                                    
-                                
-                                }
-                        
-                        };	
-                	
-            
-         </script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
-    <?php
-    session_start();
-    if(!empty($_SESSION['tipo_usuario'])){
-        header ('location:../controlador/loginController.php');
-
-    }
-    else{
-        session_destroy();
-        ?>
+    
         <body>
+        
             <img class="wave1" src="../img/wave1.png" alt="">
             <div class="contenedor">
                 <div class="img" >
-                    
-                
                 </div>
                 <div class="contenido-login">
-                    <form action="../controlador/loginController.php" method="post">
+                    <form action="" method="post">
                         <img src="../img/serv1.jpg" alt="">
-                        <h2>PRESTADORES DE SERVICIO EGAL</h2>
+                        <h1>PRESTADORES DE SERVICIO EGAL</h1>
                         <div class="input-div dn1">
                             <div class="i">
                                 <i class="fas fa-user"></i>
@@ -77,8 +51,8 @@
                             </div>
                         </div>
                         
-                        <input type="submit" onclick="validar()"  class="btn" value="iniciar sesion ">
-                        <a href="registro.php"> Crear cuenta</a> 
+                        <input type="submit" name="iniciar" onclick="validar()"  class="btn" value="iniciar sesion ">
+                        <a href="Prestadores-de-servicio-EGAL-/login/"></a> 
                     </form>
                 </div>
             </div>
@@ -87,6 +61,6 @@
         <script src="../js/login.js"></script>
        </html>
        <?php
-    }
+    
 ?>
     
