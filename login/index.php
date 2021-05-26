@@ -45,24 +45,6 @@ $message = '';
   }
 ?>
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html>
-<head>
-<meta> 
-<charset="utf-8">
-<title>Bienvenido Prestadores de servicios EGAL</title>
-<link rel="stylesheet" type="text/css" href="./css/estilosreg.css">
-  </head>
-
-  <body>
-  <form method="post">
-  <h1>Bienvenido a prestadores de servicio EGAL </h1>
-	<a href="vista/login.php"> Ingresar</a> o
-	<a href="vista/registro.php">Registrate</a>
-  </form>
-  </body>
-</html>
-=======
 <html lang="es">
     <head>
         <title>Registro</title>
@@ -132,4 +114,3 @@ $message = '';
      </head>
 <script src="./js/login.js"></script>
 </html>
->>>>>>> ed3f28f2fa46c9c0629d3ec58a7164b976883944
