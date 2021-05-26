@@ -53,6 +53,7 @@ include '../controlador/loginController.php';
                         
                         <input type="submit" name="iniciar" onclick="validar()"  class="btn" value="iniciar sesion ">
                         <a href="Prestadores-de-servicio-EGAL-/login/"></a> 
+                        <a href="../index.php"> Registrarse</a> 
                     </form>
                 </div>
             </div>
@@ -63,4 +64,3 @@ include '../controlador/loginController.php';
        <?php
     
 ?>
-    

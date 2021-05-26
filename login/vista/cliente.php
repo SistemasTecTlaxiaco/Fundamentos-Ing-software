@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -78,10 +77,6 @@
 			<p>Autor: PRESTADORES DE SERVICIO EGAL:)</p>
 		</footer>
 	</div>
-<<<<<<< HEAD
-</body>
-</html>
-=======
 </html>
 </body>
 <style type="text/css">
