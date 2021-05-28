@@ -31,7 +31,7 @@
 			</form>
 		</header>
 		<div id="content">
-			
+			<iframe height="100%" width="100%" src="../paginas/ofertas.php" name="iframea"></iframe>
 		</div>
 		<!--<section id="imagenes">
 		<div id="content">
