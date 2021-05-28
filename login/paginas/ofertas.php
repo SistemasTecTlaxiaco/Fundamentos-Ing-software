@@ -1,8 +1,3 @@
-<?php
-	session_start();
-	if($_SESSION['tipo_usuario']==1
-	){
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -56,39 +51,4 @@
 	</div>
 	<a href="../vista/cliente.php" target="iframea">VOLVER A LA PAGINA PRINCIPAL</a>	
 </html>
-<?php
-}
-else{
-    header('Location: ../vista/login.php');
-}
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

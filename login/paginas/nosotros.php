@@ -1,8 +1,3 @@
-<?php
-	session_start();
-	if($_SESSION['tipo_usuario']==1
-	){
-?>
 
 <!doctype html>
 <html lang="en">
@@ -35,9 +30,3 @@
 </body>
 	
 </html>
-<?php
-}
-else{
-    header('Location: ../vista/login.php');
-}
-?>
