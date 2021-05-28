@@ -31,8 +31,8 @@ $message = '';
     $stmt->bindParam(':user', $_POST['user']);
     $stmt->bindParam(':pass', $_POST['pass']);
 
-    ///$password = password_hash($_POST['pass'],PASSWORD_BCRYPT);
-    //$stmt->bindParam(':pass', $password);
+    $password = password_hash($_POST['pass'],PASSWORD_BCRYPT);
+    $stmt->bindParam(':pass', $password);
 
     if ($stmt->execute()) {
       

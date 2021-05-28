@@ -11,7 +11,7 @@ class Database{
         $this->servername = 'localhost';
         $this->user = 'root';
         $this->password ='';
-        $this->dbname = 'proyectoegal';
+        $this->dbname = 'egal_proyecto';
     }
 
     public function connect(){
