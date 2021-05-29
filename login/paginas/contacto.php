@@ -19,9 +19,9 @@
 				</nav>
 			</header>
 
-			<section id="slide">
+		<!--	<section id="slide">
 				<img src="img/slide.jpg" width="900" height="250">
-			</section>
+			</section>-->
 
 			<section id="categorias">
 				<section id="formulario">

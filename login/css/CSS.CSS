@@ -4,9 +4,19 @@ body {
 	font: 1em/150% Arial, Helvetica, sans-serif;
 }
 a {
-	color: #669;
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+	color: #FFFFF;
 	text-decoration: none;
 	
+}
+.a{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
 }
 a:hover {
 	text-decoration: underline;

@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" >
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../css/CSS.CSS">
         <title>EGAL</title>
 </head>
+	<body id="content">
+	<h1>OFERTAS DE TRABAJO</h1>
 	<section id="imagenes">
-		<div id="content">
-		<h1>OFERTAS DE TRABAJO</h1>
-		<section id="imagenes">
 			<div class="imagen">
 				<h4>Albañil</h4>
 				<li>Direccion: Ocotlán de Morelos, Oax</li>
@@ -47,8 +44,7 @@
 				<li>Precio: $6,000 - $6,500 mensuales</li>
 				<img class="imgn" src="../img/pintor.jpg">
 			</div>
-		</section>
-	</div>
-	<a href="../vista/cliente.php" target="iframea">VOLVER A LA PAGINA PRINCIPAL</a>	
+	</section>
+</body>	
 </html>
 
