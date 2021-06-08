@@ -1,9 +1,9 @@
 <?php 
 
-	$host = 'sql3.freesqldatabase.com';
-	$user = 'sql3415993';
-	$password = 'Ff5TlySaYJ';
-	$db = 'sql3415993';
+	$host = 'db4free.net';
+	$user = 'useregal123';
+	$password = 'prestadoresEGAL_2021';
+	$db = 'dbprestadores123';
 
 	$conection =@mysqli_connect($host,$user,$password,$db);
 
