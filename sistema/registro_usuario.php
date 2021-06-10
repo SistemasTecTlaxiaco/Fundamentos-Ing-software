@@ -56,27 +56,7 @@
 				<input type="text" name="usuario" id="usuario" placeholder="Usuario">
 				<label for="clave">Clave</label>
 				<input type="password" name="clave" id="clave" placeholder="Clave de acceso">
-				<label for="rol" >Tipo de Usuario</label>
-
-				<?php 
-
-					$query_rol = mysqli_query($conection,"SELECT * FROM rol");
-					$result_rol = mysqli_num_rows($query_rol);
-					
-				?>
-
-				<select name="rol" id="rol">
-					<?php  
-						if ($result_rol > 0) {
-							while ($rol = mysqli_fetch_array($query_rol)) {
-					?>
-							<option value="<?php echo $rol["idrol"]; ?>"><?php echo $rol["rol"]; ?></option>
-
-					<?php
-							}
-						}
-					?>
-				</select>
+				
 				<input type="submit" value="Crear Usuario" class="btn_save">
 				<a href="../" class="btn_new">Iniciar Sesión</a>
 			</form>
