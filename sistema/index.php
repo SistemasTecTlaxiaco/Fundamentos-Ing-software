@@ -43,7 +43,7 @@
     <div class="item">
       <img src="../img/plo.jpg" alt="" class="item-img">
       <div class="item-text">
-        <h3>plomero</h3>
+        <h3>Plomero</h3>
         <li>Direccion:  Oaxaca de Juarez</li>
 		<li>Precio: $7,000 - $8,0000 mensuales</li>
     <input style="background-color: #FF9900" type="button" value="Mas información">
