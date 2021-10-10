@@ -1,8 +1,8 @@
 <?php 
 
-	$host = 'prestadoresdeservicio.c0nt5wef8jyz.us-east-2.rds.amazonaws.com';
+	$host = 'proyectoegal.c2f1vvxna4co.us-east-1.rds.amazonaws.com';
 	$user = 'admin';
-	$password = 'prestadores_2021';
+	$password = 'prestadores.egal.20';
 	$db = 'proyectoEgal';
 
 	$conection =@mysqli_connect($host,$user,$password,$db);
