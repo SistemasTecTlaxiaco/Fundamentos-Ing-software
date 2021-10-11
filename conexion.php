@@ -3,7 +3,7 @@
 	$host = 'proyectoegal.c2f1vvxna4co.us-east-1.rds.amazonaws.com';
 	$user = 'admin';
 	$password = 'prestadores.egal.20';
-	$db = 'proyectoEgal';
+	$db = 'proyectoegal';
 
 	$conection =@mysqli_connect($host,$user,$password,$db);
 
