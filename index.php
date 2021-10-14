@@ -64,7 +64,7 @@ if (!empty($_SESSION['active'])) {
 			<div class="alert"><?php echo isset($alert)? $alert : ''; ?></div>
 			<input type="submit" value="INICIAR SESIÓN">
 			<a href="sistema/registro_usuario.php" class="btn_new">Registrarse</a><br><br>
-			<a href="sistema/registro_usuario.php" class="btn_res">¿Se te olvidó tu contraseña?</a>
+			<a href="sistema/recuperar.php" class="btn_res">¿Se te olvidó tu contraseña?</a>
 		</form>
 	</section>
 </body>

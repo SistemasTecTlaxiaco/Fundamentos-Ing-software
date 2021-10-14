@@ -2,11 +2,7 @@
 			<ul>
 				<li><a href="../">Inicio</a></li>
 				<li class="principal">
-					<a href="index.php">Nosotros</a>
-					<ul>
-						<li><a href="mision.php">Misión</a></li>
-						<li><a href="vision.php">Visión</a></li>
-					</ul>
+					<a href="nosotros.php">Nosotros</a>
 				</li>
 				<li class="principal">
 					<a href="#">Mensajes</a>

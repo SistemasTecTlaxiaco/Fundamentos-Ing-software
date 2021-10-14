@@ -1,56 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include "includes/scripts.php"
+
+?>
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="UTF-8">
-	<?php include "includes/scripts.php" ?>
+	
 	<title>Prestadores de Servicio EGAL</title>
+	<link rel="stylesheet" href="styles.css">
+  
 </head>
+
 <body>
-	<?php include "includes/header.php" ?>
-	<section id="container">
-		<div class="form_register">
-			<form action="" method="post">
-				<h1>Ofertas de Trabajo</h1>
-				<div class="imagen">
-				<h4>Albañil</h4>
-				<li>Direccion: Ocotlán de Morelos, Oax</li>
-				<li>Precio: $8,000 - $10,0000 mensuales</li>
-				<img class="imgn" src="../img/albañil.jpg">
-			</div>
-			<div class="imagen">
-				<h4>Carpintero</h4>
-				<li>Dirección: Oaxaca de Juarez, Oax</li>
-				<li>Precio: $10,000 - $12,0000 mensuales</li>
-				<img class="imgn" src="../img/carpinteria.jpg">
-			</div>
-			<div class="imagen">
-				<h4>Plomero</h4>
-				<li>Direccion: 5 de mayo Oaxaca de Juarez</li>
-				<li>Precio: $7,000 - $8,0000 mensuales</li>
-				<img class="imgn" src="../img/plomero.jpg">
-			</div>
-			<div class="imagen">
-				<h4>Auxiliar de limpieza y mantenimiento</h4>
-				<li>Direccion: Heroica,Cd. de Tlaxiaco, Oax</li>
-				<li>Precio: $5,000 - $5,500 mensuales</li>
-				<img class="imgn" src="../img/limpieza.jpg">
-			</div>
-			<div class="imagen">
-				<h4>Cocinera</h4>
-				<li>Direccion: 5 de mayo Oaxaca de Juarez</li>
-				<li>Precio: $7,000 - $8,0000 mensuales</li>
-				<img class="imgn" src="../img/cocinera.jpg">
-			</div>
-			<div class="imagen">
-				<h4>Pintor</h4>
-				<li>Direccion: Teposcolula, Oax</li>
-				<li>Precio: $6,000 - $6,500 mensuales</li>
-				<img class="imgn" src="../img/pintor.jpg">
-			</div>
-			</form>
-		</div>
-		
-	</section>
+<?php include "includes/header.php"?>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<div class="container">
+      <?php 
+            require_once "../conexion.php";
+      $query = mysqli_query($conection,'SELECT * FROM registro');
+    
+      foreach ($query as $conection){
+      ?>
+    
+    <div class="item">
+     <a href="detalle_persona.php?codigo=<?php echo $conection['id_registro'] ?>"> <img src="../img/<?php echo $conection['foto'];?>" class="item-img">
+        <h3><?php echo  $conection['nombreCompleto'];?></h3>
+        <p><?php echo  $conection['tipo_servicio'];?></p>
+		    <a href='detalle_persona.php?codigo=<?php echo $conection['id_registro'] ?>'  class="btn btn-primary" ><center style="background-color: #FF9900">Mas informacion </center> </a>
+      <div class="item-text">
+    </div>
+    </div>
+      <?php
+      }
+      ?>
+
+ </div>
+   
 	<?php include "includes/footer.php" ?>
 </body>
-</html>
+</html> 
+
+
