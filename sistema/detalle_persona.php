@@ -51,6 +51,6 @@ $query = mysqli_query($conection,'SELECT * FROM registro where id_registro=?');
      
       </div>
       
-	<?php include "includes/footer.php" ?>
+	<?php include "includes/footerventanas.php" ?>
 </body>
 </html> 
