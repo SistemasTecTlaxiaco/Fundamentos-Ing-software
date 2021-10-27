@@ -3,11 +3,11 @@
 	$host = 'proyectoegal.c2f1vvxna4co.us-east-1.rds.amazonaws.com';
 	$user = 'admin';
 	$password = 'prestadores.egal.20';
-	$db = 'proyectoegal'; 
-	/*  $host = 'localhost';
+	$db = 'proyectoegal';  
+	 /* $host = 'localhost';
 	$user = 'root';
 	$password = '';
-	$db = 'baseegal';  */
+	$db = 'baseegal';   */
 
 	 
 
