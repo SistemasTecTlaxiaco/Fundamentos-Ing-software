@@ -21,7 +21,7 @@
 				<li class="principal">
 					<a href="#">Contacto</a>
 					<ul>
-						<li><a href="#">Registrar</a></li>
+						<li><a href="registrar.php">Registrar</a></li>
 						<li><a href="#">Otro</a></li>
 					</ul>
 				</li>
