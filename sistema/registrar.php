@@ -20,7 +20,7 @@ if (!empty($_POST)) {
       $id_maximo=$rr['id_maximo'];
     }
     $diretorio="../img/";
-  $nameimagen=$_FILES['foto']['name'];
+    $nameimagen=$_FILES['foto']['name'];
     $tmpimagen=$_FILES['foto']['tmp_name'];
     $urlnueva="".$diretorio. "foto_".$id_maximo. ".jpg";
     if(is_uploaded_file($tmpimagen)){
