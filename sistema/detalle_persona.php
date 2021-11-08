@@ -34,7 +34,7 @@ $query = mysqli_query($conection,'SELECT * FROM registro where id_registro=?');
      
      
       <div class="col-md-6">
-  <img src="../img/<?php echo $conection['foto']; ?>" class="item-fluid">
+  <img src="../img/<?php echo $conection['foto']; ?>" class="item-fluid" style="width:300px; height:300px;" >
 </div>
 
 <div class="col-md-6">
