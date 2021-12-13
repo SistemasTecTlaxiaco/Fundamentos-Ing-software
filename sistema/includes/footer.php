@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Footer Desing</title>
     <link rel="stylesheet" href="css/estilosfooter.css">
+    <link rel="stylesheet" href="css/estilowhatsapp.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
@@ -21,37 +22,20 @@
                     a los prestadores de servicio para que puedan conseguir
                     trabajo de una manera facil, confiable y segura.</p>
                 </div>
-            
-                <div class="columna2">
-                    <h1>Redes sociales</h1>
-                    <div class="row">
-                        <img src="../img/facebook.png">
-                        <label>Siguenos en Facebook</label>
-                    </div>
-                    <div class="row">
-                        <img src="../img/twitter.png">
-                        <label>Siguenos en Twiter</label>
-                    </div>
-                    <div class="row">
-                        <img src="../img/instagram.jpg">
-                        <label>Siguenos en Instagram</label>
-                    </div>
-                </div>
 
                 <div class="Columna3">
                     <h1>Información contactos</h1>
+                    
                     <div class="row2">
-                        <img src="../img/casa.png">
+                        <a href="mapa.php"><img src="../img/casa.png" width="50" height="50"></a>
                         <label>Heroica Cd. de Tlaxiaco</label>
                     </div>
+
                     <div class="row2">
-                        <img src="../img/whatsapp.png">
-                        <label>9531104223</label>
-                    </div>
-                    <div class="row2">
-                        <img src="../img/gmaill.jpg">
-                        <label>prestadordeservicios@gmail.com</label>
-                    </div>
+                        <a href="https://api.whatsapp.com/send/?phone=+52%209515879097&text=Hola,%20Bienvenid@%20al%20sistema%20EGAL,%20en%20que%20podemos%20servirle." target="_blank">
+                            <img src="./img/logo-whatsapp.png" width="50" height="50">
+                        </a>
+                        <label>Comunícate con nosotros</label>
                 </div>
             </div>
         </div>

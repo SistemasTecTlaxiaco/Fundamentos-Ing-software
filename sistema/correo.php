@@ -9,6 +9,7 @@ if(isset($_POST['emaildestino']) && isset($_POST['Apellido'])){
 
     $emaildestino=$_POST['emaildestino'];
     $Apellido=$_POST['Apellido'];
+    $micorreo=$_POST['micorreo'];
     $asunto=$_POST['asunto'];
     $comentario=$_POST['comentario'];
 
@@ -39,7 +40,7 @@ if(isset($_POST['emaildestino']) && isset($_POST['Apellido'])){
             );  
             $mail->isHTML(true);                                  
             $mail->Subject = 'Correo de contacto';
-            $mail->Body    = 'Nombre: '  . $Apellido .'<br/>Asunto:'.$asunto. '<br/>Correo: ' . $emaildestino . '<br/>' . $comentario;
+            $mail->Body    = 'Nombre: '  . $Apellido .'<br/>Envió:'.$micorreo.'<br/>Asunto:'.$asunto. '<br/>Correo: ' . $emaildestino . '<br/>' . $comentario;
          
 
 

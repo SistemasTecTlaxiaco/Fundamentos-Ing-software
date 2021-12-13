@@ -43,14 +43,19 @@ $query = mysqli_query($conection,'SELECT * FROM registro where id_registro=?');
 </div>
 
 <div class="col-md-6">
-<h1><?php echo  $conection['tipo_servicio']; ?></h1>
+<h1><center style="background-color: #EDB214"> <?php echo  $conection['tipo_servicio']; ?></center></h1>
+
   <h2> <?php echo $conection['nombreCompleto']; ?> </h2>
   <h3>Dirección: <?php echo  $conection['direccion']; ?></h3>
   <h3>Gmail: <?php echo  $conection['email']; ?></h3>
 
- <h3 >Contacto: <span class="icocor1">&#128222;</span><?php echo  $conection['telefono']; ?></h3>
-  <h3>Pago: <?php echo  $conection['pago']; ?></h3>
-  <p> <center><?php echo $conection['descripcion']; ?></center></p>
+ <h3 >Contacto: <a  href="https://api.whatsapp.com/send/?phone=+52 <?php echo  $conection['telefono']; ?>%&text=Hola,%20Bienvenid@%20al%20sistema%20EGAL,%20en%20que%20podemos%20servirle." target="_blank">
+   <img src="./img/logo-whatsapp.png" width="20" height="20"><?php echo  $conection['telefono']; ?></a>
+  </h3>
+ 
+  <h3>Sueldo Aprox: <?php echo  $conection['pago']; ?></h3>
+  <br>
+  <h3> <center><?php echo $conection['descripcion']; ?></center></h3>
  
      </div>
  
@@ -74,7 +79,14 @@ $query = mysqli_query($conection,'SELECT * FROM registro where id_registro=?');
   <label for="Apellido">Nombre</label>
  </td>
  <td valign="top">
-  <input placelholder="Apellido"   type="text" id="Apellido" name="Apellido" maxlength="50" size="30" required="">
+  <input placelholder="Apellido"   type="text" id="Apellido" name="Apellido" maxlength="50" size="30" required="" placeholder="Ingrese su nombre">
+ </td>
+</tr>
+<td valign="top">
+  <label for="emaildestino">Gmail</label>
+ </td>
+ <td valign="top">
+  <input placelholder="Para"  type="email" id="micorreo" name="micorreo" maxlength="50" size="30" required="" placeholder="Ingrese su correo" >
  </td>
 </tr>
 <tr>
