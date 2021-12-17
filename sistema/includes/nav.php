@@ -5,13 +5,6 @@
 					<a href="nosotros.php">Nosotros</a>
 				</li>
 				<li class="principal">
-					<a href="#">Mensajes</a>
-					<ul>
-						<li><a href="mensajes_env.php">Recibidos</a></li>
-						<li><a href="#">Enviados</a></li>
-					</ul>
-				</li>
-				<li class="principal">
 					<a href="#">Notificaciones</a>
 					<ul>
 						<li><a href="notificaciones.php">Recientes</a></li>
@@ -21,8 +14,7 @@
 				<li class="principal">
 					<a href="#">Contacto</a>
 					<ul>
-						<li><a href="#">Registrar</a></li>
-						<li><a href="#">Otro</a></li>
+						<li><a href="registrar.php">Registrar</a></li>
 					</ul>
 				</li>
 			</ul>
