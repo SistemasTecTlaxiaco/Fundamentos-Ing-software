@@ -39,18 +39,6 @@
                 </div>
             </div>
         </div>
-       <!-- <div class="container-footer">
-               <div class="footer">
-                    <div class="copyright">
-                        © 2017 Todos los Derechos Reservados | <a href="">EGAL</a>
-                    </div>
-
-                    <div class="information">
-                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
-                    </div>
-                </div>
-
-            </div>-->
     </footer>
 </body>
 </html>

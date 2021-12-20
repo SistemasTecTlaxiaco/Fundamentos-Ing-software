@@ -1,13 +1,12 @@
 <?php 
 	
-	session_start();
 	if (empty($_SESSION['active'])) {
 		header('location: ../');
 	}
 ?>
 
 	<header>
-		<div class="header">
+		<div class="header">			
 			<h1>Prestadores de Servicio EGAL</h1>
 			<div class="optionsBar">
 				<p>Oaxaca, <?php echo fechaC(); ?></p>

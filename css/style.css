@@ -3,7 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+h3{
+	font-family: 'Arial';
+	font size: 25pt;
+	letter-spacing: 1px;
+	width: 100%;
+	background: #2980B9;
+	padding: 15px;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
 
 #container{
 	background-image: linear-gradient(to right, #1d13aa,#00ffbf,#12d0f1);
