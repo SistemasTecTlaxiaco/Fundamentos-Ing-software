@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Footer Desing</title>
-    <link rel="stylesheet" href="css/estilosfooter.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
     <link rel="stylesheet" href="css/estilowhatsapp.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
@@ -39,18 +39,6 @@
                 </div>
             </div>
         </div>
-       <!-- <div class="container-footer">
-               <div class="footer">
-                    <div class="copyright">
-                        © 2017 Todos los Derechos Reservados | <a href="">EGAL</a>
-                    </div>
-
-                    <div class="information">
-                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
-                    </div>
-                </div>
-
-            </div>-->
     </footer>
 </body>
 </html>

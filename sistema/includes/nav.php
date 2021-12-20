@@ -17,5 +17,8 @@
 						<li><a href="registrar.php">Registrar</a></li>
 					</ul>
 				</li>
+				<li class="principal">
+					<a href="actualizar_perfil.php">Perfil</a>
+				</li>
 			</ul>
 		</nav>

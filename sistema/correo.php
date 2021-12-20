@@ -59,7 +59,5 @@ if(isset($_POST['emaildestino']) && isset($_POST['Apellido'])){
 </div>';
         
     } 
-    
-
 
 }
