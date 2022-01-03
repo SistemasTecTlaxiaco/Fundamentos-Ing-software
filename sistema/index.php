@@ -32,7 +32,7 @@
       ?>
       
       <div class="item">
-      <a href="detalle_persona.php?codigo=<?php echo $conection['id_registro'] ?>"> <img src="../img/<?php echo $conection['foto'];?>" class="item-img">
+      <a href='detalle_persona.php?codigo=<?php echo $conection['id_registro'] ?>'> <img src="../img/<?php echo $conection['foto'];?>" class="item-img">
         <h3><?php echo  $conection['nombreCompleto'];?></h3>
         <p><?php echo  $conection['tipo_servicio'];?></p>
 		    <a href='detalle_persona.php?codigo=<?php echo $conection['id_registro'] ?>' class="btn btn-primary" ><center style="background-color: #FF9900">Mas informacion </center> </a>
